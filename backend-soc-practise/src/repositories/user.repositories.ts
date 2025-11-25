@@ -43,7 +43,7 @@ export class UserRepository implements IUserRepository {
     users[index] = { ...users[index], ...updateData };
     return users[index];
   }
-  
+
   deleteUser(id: string): User | undefined {
     const user = users.find((user) => user.id === id);
     if (!user) return undefined;
