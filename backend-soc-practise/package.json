@@ -1,0 +1,38 @@
+{
+  "name": "express-refactoring-exercise",
+  "version": "1.0.0",
+  "description": "A badly structured Express server for refactoring practice",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "refactoring",
+    "exercise"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.19.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertmaharjan94/backend-soc-practise.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/albertmaharjan94/backend-soc-practise/issues"
+  },
+  "homepage": "https://github.com/albertmaharjan94/backend-soc-practise#readme"
+}
